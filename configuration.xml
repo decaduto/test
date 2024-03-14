@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<plugin_configuration>
+	<plugin_subtree>
+		<plugin_subtree_name>"RTL"</plugin_subtree_name>
+		<plugin_subtree_type>"ETH"</plugin_subtree_type>
+		<plugin_subtree_bus>"USB"</plugin_subtree_bus>
+		<plugin_subtree_version_pack>"0.0.1"</plugin_subtree_version_pack>
+		<plugin_subtree_generic_flags>""</plugin_subtree_generic_flags>
+		<plugin_subtree_merge_drivers>"FALSE"</plugin_subtree_merge_drivers>
+		<plugin_subtree_specific_driver>
+			<plugin_hw_supported>8156b</plugin_hw_supported>
+			<plugin_name>"RTL81XX ETHERNET ADAPTER"</plugin_name>
+			<plugin_flags>"-D-DCHOOSEN_PLATFORM=LINUX"</plugin_flags>
+			<plugin_private_key>"XXX"</plugin_private_key>
+			<plugin_current_version>"0.0.1"</plugin_current_version>
+			<plugin_supported_arch>"arm,arm64,x86_32,x86_64"</plugin_supported_arch>
+			<plugin_vendor_flags></plugin_vendor_flags>
+			<plugin_standalone_mode>0</plugin_standalone_mode>
+			<plugin_standalone_executable_subsystems>""</plugin_standalone_executable_subsystems>
+			<plugin_standalone_executable_name>"rtl81xx"</plugin_standalone_executable_name>
+		</plugin_subtree_specific_driver>
+	</plugin_subtree>
+</plugin_configuration>
